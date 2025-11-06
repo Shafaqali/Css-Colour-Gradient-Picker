@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-image: linear-gradient(to right, rgb(255, 0, 0), rgb(255, 255, 0));
+    
+}
+.main{
+    width: 400px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+.btn-cont{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+
+}
+.btn-cont button{
+    padding: 10px 20px;
+    font-size: 18px;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+.btn-cont #btn1{
+    background-color: #ff0000;
+    color: white;
+}
+.btn-cont #btn2{
+    background-color: #3fc108;
+    color: white;
+}
+.heading{
+    text-align: center;
+    font-family: Arial, sans-serif;
+    color: white;
+}
+.copycode{
+    background-color: rgba(255, 255, 255, 0.2);
+    padding: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    border-radius: 10px;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    cursor: pointer;
+}
+.main-heading{
+    margin-bottom: 20px;
+    font-family: Arial, sans-serif;
+    color: white;
+}
+
+.Pop-msg-copy{
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    background-color: #31a24c;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-family: Arial, sans-serif;
+    display: none;
+}
